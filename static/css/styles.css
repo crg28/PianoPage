@@ -1,5 +1,5 @@
 .Main {
-    background-color: #32302d; /* Utiliza el color que desees */
+    background-color: #000000; /* Utiliza el color que desees */
     width: 100%; /* Ancho del div */
     height: 100px; /* Altura del div */
     margin: 0;
@@ -12,6 +12,17 @@
     text-align: center;
     margin: 0;
     font-size: 70px;
+}
+
+.contenedorImgPortada {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgPortada {
+    flex: 1;
+    text-align: center;
+    margin: 10px; /* Agrega un margen de 10px entre las imágenes */
 }
 
 * {
