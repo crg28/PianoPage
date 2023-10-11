@@ -10,18 +10,17 @@
 <body>
     <head>
         <div class="Main">
-        <h1 id="MainT">Diego Deaza Villareal</h1>
-        <div>
-        </div class = "contenedorImgPortada">
-            </div>
+        <h1 id="MainT">Diego Deaza Villarreal</h1>
+        </div>
+        <div class = "contenedorPortada">
             <div class="imgPortada">
                 <img src="{{ url_for('static', filename='img/f1.png') }}" width="300" class="imgcentrada"/>
             </div>
             <div class = "imgPortada">
-                <img src="{{ url_for('static', filename='img/f2.png') }}" width="300" class="imgcentrada"/>
+                <img src="{{ url_for('static', filename='img/f2.png') }}" width="300" height="300" class="imgcentrada"/>
             </div>
             <div class="imgPortada">
-                <img src="{{ url_for('static', filename='img/f3.png') }}" width="300" class="imgcentrada"/>
+                <img src="{{ url_for('static', filename='img/f3.png') }}" width="300" class="imgcentrada" style="border-bottom: 1px solid #000;"/>
             </div>
         </div>
     </head>

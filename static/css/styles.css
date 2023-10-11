@@ -14,15 +14,22 @@
     font-size: 70px;
 }
 
-.contenedorImgPortada {
-    display: flex;
-    justify-content: space-between;
+.contenedorPortada {
+    justify-content: center;
+    text-align: center;
+    background-color: #c19f61;
 }
 
 .imgPortada {
     flex: 1;
     text-align: center;
-    margin: 10px; /* Agrega un margen de 10px entre las imágenes */
+    margin: 5px; /* Agrega un margen de 10px entre las imágenes */
+    display: inline-block;
+    border: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 300px; /* Ancho total del elemento, incluyendo el borde */
+    height: 300px; /* Alto total del elemento, incluyendo el borde */
+
 }
 
 * {
