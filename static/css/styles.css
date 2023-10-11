@@ -2,8 +2,6 @@
     background-color: #000000; /* Utiliza el color que desees */
     width: 100%; /* Ancho del div */
     height: 100px; /* Altura del div */
-    margin: 0;
-    padding: 0;
 }
 
 #MainT {
@@ -11,13 +9,14 @@
     font-family: 'Old English Text MT', sans-serif;
     text-align: center;
     margin: 0;
-    font-size: 70px;
+    font-size: 5rem;
 }
+
 
 .contenedorPortada {
     justify-content: center;
     text-align: center;
-    background-color: #c19f61;
+    background-color: #937948;
 }
 
 .imgPortada {
@@ -48,7 +47,29 @@
     font-family: Segoe UI, Arial;
 }
 
+.contenedor {
+    display: flex;
+}
+
+.barraLateral {
+    width: 250px; /* Ancho de la barra lateral */
+    height: 100vh;
+    background-color: #fff; /* Color de fondo de la barra lateral */
+    color: #000; /* Color de texto en la barra lateral */
+    padding: 20px; /* Espacio alrededor del contenido de la barra lateral */
+    position: fixed; /* Fijar la barra lateral en su posición */
+    right: 0;
+}
+
+
+.contenidoMain {
+    flex: 1; /* Hace que el contenido principal ocupe el espacio restante */
+    margin-right: 250px;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
+
+
